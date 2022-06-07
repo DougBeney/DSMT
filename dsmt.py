@@ -97,7 +97,7 @@ for p in sorted_processes:
 	else:
 		mem_or_cpu = str(mem_or_cpu)[0:5]
 
-	print(mem_or_cpu + '\t' + p)
+	print(mem_or_cpu.ljust(10) + '\t' + p)
 
 # with open('/home/doug/Downloads/json_data.json', 'w') as outfile:
 #     outfile.write(json.dumps(process_obj, indent=2))
