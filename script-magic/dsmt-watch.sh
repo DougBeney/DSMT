@@ -1,4 +1,6 @@
 #!/bin/bash
+clear
+
 while true
 do
 	echo MEMORY USAGE:
