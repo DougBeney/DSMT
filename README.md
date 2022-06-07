@@ -25,16 +25,16 @@ dsmt cpu
 Example output (`dsmt mem 10`):
 
 ```
-4264M	/usr/lib/firefox/firefox
-394M 	/app/extra/lib/slack/slack
-315M 	/usr/bin/gnome-shell
-150M 	/usr/bin/python
-126M 	/usr/lib/gnome-terminal-server
-110M 	emacs
-94M  	/usr/bin/nautilus
-86M  	/usr/bin/geary
-63M  	/usr/bin/syncthing
-63M  	/usr/bin/gedit
+966M	/usr/sbin/apache2
+243M	/usr/sbin/mysqld
+89M 	/lib/systemd/systemd-journald
+42M 	/usr/bin/redis-server
+24M 	/usr/bin/python3
+22M 	/usr/lib/snapd/snapd
+16M 	/sbin/multipathd
+14M 	sshd:
+10M 	/sbin/init
+10M 	python3
 ```
 
 ## Recommended Install
