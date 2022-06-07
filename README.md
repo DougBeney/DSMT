@@ -36,3 +36,14 @@ Example output (`dsmt mem 10`):
 63M  	/usr/bin/syncthing
 63M  	/usr/bin/gedit
 ```
+
+## Recommended Install
+
+I have `$HOME/.local/bin` in my executable `$PATH` variable.
+
+So, the recommended install is:
+
+```
+chmod +x ./dsmt.py
+ln -s $PATH/dsmt.py ~/.local/bin/dsmt
+```
