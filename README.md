@@ -25,16 +25,16 @@ dsmt cpu
 Example output (`dsmt mem 10`):
 
 ```
-966M	/usr/sbin/apache2
-243M	/usr/sbin/mysqld
-89M 	/lib/systemd/systemd-journald
-42M 	/usr/bin/redis-server
-24M 	/usr/bin/python3
-22M 	/usr/lib/snapd/snapd
-16M 	/sbin/multipathd
-14M 	sshd:
-10M 	/sbin/init
-10M 	python3
+1279M  	/usr/sbin/apache2
+243M   	/usr/sbin/mysqld
+89M    	/lib/systemd/systemd-journald
+24M    	/usr/bin/python3
+22M    	/usr/lib/snapd/snapd
+16M    	/sbin/multipathd
+14M    	sshd:
+14M    	/usr/bin/redis-server
+10M    	/sbin/init
+10M    	python3
 ```
 
 ## Recommended Install
