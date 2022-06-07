@@ -44,6 +44,8 @@ I have `$HOME/.local/bin` in my executable `$PATH` variable.
 So, the recommended install is:
 
 ```
+git clone https://github.com/DougBeney/DSMT.git
+cd DSMT
 chmod +x ./dsmt.py
 ln -s $PATH/dsmt.py ~/.local/bin/dsmt
 ```
